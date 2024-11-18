@@ -1,13 +1,14 @@
 package com.ecommerce.dao;
 
-import com.ecommerce.model.Product;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.ecommerce.model.Product;
+
 public class ProductDAO {
-	private String url = "jdbc:sqlserver://localhost:1433;databaseName=EcommerceDB;encrypt=true;trustServerCertificate=true;";
-	private String user = "sa";
+	private String url = "jdbc:postgresql://localhost:5432/postgres";
+	private String user = "postgres";
 	private String pass = "123456";
     public List<Product> getAllProducts() {
         List<Product> productList = new ArrayList<>();

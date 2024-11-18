@@ -82,6 +82,7 @@
             <label for="email">Enter your email address:</label>
             <input type="email" id="email" name="email" required>
             <input type="submit" value="Submit">
+            
         </form>
         <%
             if (request.getAttribute("message") != null) {
@@ -90,6 +91,7 @@
                 out.print("<p class='error-message'>" + request.getAttribute("errorMessage") + "</p>");
             }
         %>
+        <a href="/QueProject/login">Quay trở lại đăng nhập?</a> 
     </div>
 </body>
 </html>

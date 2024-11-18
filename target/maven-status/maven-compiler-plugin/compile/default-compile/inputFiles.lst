@@ -7,5 +7,6 @@ C:\Users\SpringT\eclipse-workspace\QueProject\src\main\java\com\ecommerce\dao\Cu
 C:\Users\SpringT\eclipse-workspace\QueProject\src\main\java\com\ecommerce\controller\client\SearchController.java
 C:\Users\SpringT\eclipse-workspace\QueProject\src\main\java\com\ecommerce\controller\client\HomeController.java
 C:\Users\SpringT\eclipse-workspace\QueProject\src\main\java\com\ecommerce\controller\client\ForgotPasswordController.java
+C:\Users\SpringT\eclipse-workspace\QueProject\src\main\java\com\ecommerce\controller\client\ResetPasswordController.java
 C:\Users\SpringT\eclipse-workspace\QueProject\src\main\java\com\ecommerce\dao\ResetPasswordDAO.java
 C:\Users\SpringT\eclipse-workspace\QueProject\src\main\java\com\ecommerce\model\Product.java

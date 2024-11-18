@@ -51,7 +51,7 @@ body {
         }
 
         .login-container input[type="submit"]:hover {
-            background-color: #218838;
+            background-color: #333333;
         }
 
         .error-message {

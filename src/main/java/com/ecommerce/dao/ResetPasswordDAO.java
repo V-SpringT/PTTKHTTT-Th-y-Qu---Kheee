@@ -8,8 +8,8 @@ import java.sql.SQLException;
 import com.ecommerce.model.ResetPasswordToken;
 
 public class ResetPasswordDAO {
-	private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=EcommerceDB;encrypt=true;trustServerCertificate=true;";
-    private static final String USER = "sa";
+	private static final String URL = "jdbc:postgresql://localhost:5432/postgres";
+    private static final String USER = "postgres";
     private static final String PASSWORD = "123456";
 
     static {

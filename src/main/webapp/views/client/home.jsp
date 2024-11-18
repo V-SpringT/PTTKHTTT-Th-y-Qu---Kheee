@@ -1,7 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,8 +31,7 @@
             </form>
         </div>
     </div>
-</header>
-
+    </header>
 
     <!-- Body -->
     <div class="body-container">
@@ -41,10 +39,15 @@
         <div class="product-list">
             <c:forEach var="product" items="${productList}">
                 <div class="product-item">
-                    <img src="${product.imageUrl}" alt="${product.name}">
+                    <img src="${product.imageUrl}" alt="${product.name}" width="150" height="200">
                     <h3>${product.name}</h3>
                     <p>${product.description}</p>
-                    <span>${product.price}</span>
+                    <span>Price: ${product.price}</span>
+                    <!-- Nút Add to Cart -->
+                    <form action="/QueProject/addToCart" method="post">
+                        <input type="hidden" name="productId" value="${product.id}">
+                        <button type="submit">Add to Cart</button>
+                    </form>
                 </div>
             </c:forEach>
         </div>
